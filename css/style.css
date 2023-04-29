@@ -1,0 +1,127 @@
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+
+        .problem, .meter {
+            border-bottom: 1px solid #e6e6e6;
+            margin-bottom: 2em;
+            margin-top: 2em;
+        }
+
+        .meter {
+            padding-bottom: 2em;
+        }
+
+        h1, h2, h3 {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #333;
+        }
+
+        strong {
+            color: #333;
+        }
+
+        p, ul li, ol li {
+            color: #555;
+            line-height: 1.5;
+        }
+
+        ul {
+            margin-left: -40px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .overline {
+            text-decoration: overline;
+        }
+
+        .fs-30 {
+            font-size: 30px;
+        }
+
+        .lower-alpha {
+            list-style: lower-alpha;
+        }
+
+        ul:has(>li.lower-alpha) {
+            margin-left: 0;
+        }
+        <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+        }
+
+        .problem, .meter {
+            border-bottom: 1px solid #e6e6e6;
+            margin-bottom: 2em;
+            margin-top: 2em;
+        }
+
+        .meter {
+            padding-bottom: 2em;
+        }
+
+        h1, h2, h3 {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #333;
+        }
+
+        strong {
+            color: #333;
+        }
+
+        p, ul li, ol li {
+            color: #555;
+            line-height: 1.5;
+        }
+
+        ul {
+            margin-left: -40px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .overline {
+            text-decoration: overline;
+        }
+
+        .fs-30 {
+            font-size: 30px;
+        }
+
+        .lower-alpha {
+            list-style: lower-alpha;
+        }
+
+        ul:has(>li.lower-alpha) {
+            margin-left: 0;
+        }
